@@ -65,3 +65,11 @@
     text-align: center;
     color: #666;
 }
+
+.Link {
+    color: #333;
+}
+
+.Link:hover {
+    color: #e00505;
+}
