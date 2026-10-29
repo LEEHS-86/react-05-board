@@ -1,4 +1,4 @@
-.londing {
+.loading {
     padding: 100px;
     text-align: center;
     font-size: 1.1rem;
@@ -41,4 +41,27 @@
 
 .boardTable td {
     border-bottom: 1px solid #eee;
+}
+
+.tableRow {
+    transition: background-color 0.2s;
+}
+
+.tableRow:hover {
+    background-color: #f1f7ff;
+}
+
+.idCell {
+    width: 80px;
+    text-align: center;
+    color: #888;
+}
+
+.titleCell {
+    text-align: left;
+}
+
+.userIdCell {
+    text-align: center;
+    color: #666;
 }
