@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { StyledContainer, StyledLoading } from "../styles/commonStyle.ts";
 import styled from "styled-components";
+import type { Post } from "../types/Post.ts";
 
 type Post = {
     userId: number;
